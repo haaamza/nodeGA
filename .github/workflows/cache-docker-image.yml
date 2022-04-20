@@ -17,3 +17,4 @@ jobs:
         uses: whoan/docker-build-with-cache-action@v5
         with:
           push_image_and_stages: false
+          image_name: test_repo
